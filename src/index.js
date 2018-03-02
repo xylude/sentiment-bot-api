@@ -1,7 +1,7 @@
 import express from 'express'
 const app = express()
 
-import users from 'routes/users'
+import users from './routes/users'
 
 app.get('/users', users)
 
